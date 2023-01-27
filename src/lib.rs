@@ -49,7 +49,7 @@ pub fn set_shadow(
                 Graphics::Dwm::DwmExtendFrameIntoClientArea, UI::Controls::MARGINS,
             };
 
-            let m = if enable { -1 } else { 0 };
+            let m = if enable { -3 } else { 0 };
             let margins = MARGINS {
                 cxLeftWidth: m,
                 cxRightWidth: m,
